@@ -1,0 +1,12 @@
+{
+    "version": 1,
+    "cmakeMinimumRequired": {
+        "major":3, "minor":20, "patch":3
+    },
+    "configurePresets": [ ],
+    "vendor": {
+        "vendor-one.com/ExampleIDE/1.0": {
+            "buildQuikly": false
+        }
+    }
+}

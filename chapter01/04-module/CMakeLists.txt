@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.20.0)
+cmake_minimum_required(VERSION 3.27)
 project(ModuleExample)
 include(TestBigEndian)
 test_big_endian(IS_BIG_ENDIAN)
