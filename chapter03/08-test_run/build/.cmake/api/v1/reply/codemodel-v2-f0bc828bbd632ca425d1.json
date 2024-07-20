@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -15,7 +15,7 @@
 					"source" : "."
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -32,12 +32,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/matt/Documents/cmake_prac/chapter03/08-test_run/build",
-		"source" : "/home/matt/Documents/cmake_prac/chapter03/08-test_run"
+		"build" : "/home/fox/Documents/cpp/cmake_prac/chapter03/08-test_run/build",
+		"source" : "/home/fox/Documents/cpp/cmake_prac/chapter03/08-test_run"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 6
 	}
 }
