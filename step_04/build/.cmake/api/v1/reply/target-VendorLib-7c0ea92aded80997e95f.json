@@ -5,7 +5,8 @@
 	{
 		"commands" : 
 		[
-			"add_library"
+			"add_library",
+			"target_link_libraries"
 		],
 		"files" : 
 		[
@@ -21,6 +22,12 @@
 				"file" : 0,
 				"line" : 1,
 				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
 			}
 		]
 	},
@@ -30,6 +37,13 @@
 		"minor" : 10
 	},
 	"id" : "VendorLib::@c8696d4ffa94abae450b",
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"fragment" : "Vendor"
+		}
+	],
 	"name" : "VendorLib",
 	"paths" : 
 	{

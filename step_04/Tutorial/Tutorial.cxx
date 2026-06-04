@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    int unused;
+    // int unused;
 
     // convert input to double
     double const inputValue = std::stod(argv[1]);
