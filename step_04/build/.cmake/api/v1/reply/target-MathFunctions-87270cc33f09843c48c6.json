@@ -1,0 +1,162 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "MathFunctions/libMathFunctions.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_definitions",
+			"target_sources",
+			"target_compile_features"
+		],
+		"files" : 
+		[
+			"MathFunctions/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu++20 -arch arm64"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "TUTORIAL_USE_STD_SQRT"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/Users/matthew/Desktop/cmake_prac/cmake_prac/step_04/MathFunctions"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"fileSets" : 
+	[
+		{
+			"baseDirectories" : 
+			[
+				"MathFunctions"
+			],
+			"name" : "HEADERS",
+			"type" : "HEADERS",
+			"visibility" : "PUBLIC"
+		}
+	],
+	"id" : "MathFunctions::@742f1924b0b2e2878db6",
+	"interfaceSources" : 
+	[
+		{
+			"fileSetIndex" : 0,
+			"path" : "MathFunctions/MathFunctions.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"name" : "MathFunctions",
+	"nameOnDisk" : "libMathFunctions.a",
+	"paths" : 
+	{
+		"build" : "MathFunctions",
+		"source" : "MathFunctions"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"interfaceSourceIndexes" : 
+			[
+				0
+			],
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "MathFunctions/MathFunctions.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"fileSetIndex" : 0,
+			"path" : "MathFunctions/MathFunctions.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
